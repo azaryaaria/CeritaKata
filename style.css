@@ -1,0 +1,252 @@
+.header_img img{
+    width: 25rem;
+    height: 25rem;
+    margin-top: 25px;
+}
+
+.header_text{
+    margin-top: 55px;   
+}
+
+a .cta_btn{
+    margin-top: 50px;
+    background-image: linear-gradient(#58A0C8, #34699A);
+    width: 140px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none !important;
+}
+
+a .cta_btn p{
+    color: white;
+    text-decoration: none !important;
+}
+
+.mid_header{
+    text-align: center;
+    margin-top: 55px;
+}
+
+.how-it-works-icon {
+    width: 80px; /* Atur ukuran ikon */
+    height: auto; /* Jaga rasio aspek gambar */
+}
+
+
+.bab{
+    width: 250px;
+    height: 350px;
+    background-color: rgb(45, 163, 45);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bab img{
+    width: 250px;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.bab_info{
+    width: 250px;
+    height: 162px;
+    background-color: white;
+    text-align: center;
+}
+
+.bab_info a{
+    text-decoration: none;
+}
+
+
+.bab_btn{
+    background-color: rgb(45, 163, 45);
+    border-radius: 5px;
+    width: 55px;
+    margin: 0 auto;
+}
+
+.bab_btn:hover{
+    background-color: rgb(34, 123, 34);
+}
+
+.bab_btn p{
+    color: white;
+}
+
+.back_btn{
+    text-decoration: none;
+}
+
+.back_btn h5{
+    color: #34699A;
+    text-shadow: 2px 2px 0 0 black;
+}
+
+.judul_bagian{
+    text-decoration: underline;
+}
+
+.body_bab1{
+    background-color: #FAF8F1;
+}
+
+.header_bab1 img{
+    width: 450px;
+}
+
+/* Font */
+.poppins{
+    font-family: 'Poppins';
+}
+
+.merriweather{
+    font-family: 'Merriweather';
+}
+
+/* Jelajaih Cerita */
+
+.body_jelajah {
+    background-color: white;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Kontainer utama dengan border putus-putus */
+.main-container {
+    width: 100%;
+    max-width: 900px;
+    padding: 20px;
+}
+
+.judul_jelajah {
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+}
+
+/* Gaya untuk bagian filter */
+/* Gaya untuk bagian filter */
+.filter-container {
+    display: flex;          /* 1. Mengaktifkan mode flexbox */
+    flex-wrap: wrap;        /* 2. Mengizinkan item pindah ke baris baru */
+    justify-content: center;/* 3. Menengahkan semua item secara horizontal */
+    align-items: center;    /* 4. Meluruskan item (teks "Filter:" dan tombol) secara vertikal */
+    gap: 10px;              /* 5. Memberi jarak antar item secara konsisten */
+    padding: 15px;
+    margin-bottom: 20px;
+    /* Hapus text-align: center; karena sudah diatur oleh justify-content */
+}
+
+/* Sedikit penyesuaian pada margin agar rapi */
+.btn-filter, #search-input {
+    margin: 0; /* Hapus margin lama agar 'gap' yang mengatur jarak */
+    /* Properti lain biarkan seperti semula */
+    background-color: transparent;
+    border: 1px solid #777;
+    color: black;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.btn-filter.active {
+    background-color: black;
+    color: white;
+}
+
+#search-input {
+    width: 150px;
+}
+
+/* Gaya untuk kartu cerita */
+.story-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.story-card {
+    display: flex;
+    padding: 15px;
+    gap: 15px;
+}
+
+.story-illustration {
+    flex-shrink: 0;
+    width: 120px;
+    height: 120px;
+    border: 1px solid #777;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: black;
+    overflow: hidden;
+}
+
+.story-illustration img{
+    width: 120px;
+    height: 120px;
+}
+
+.story-details {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.story-title {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.story-theme {
+    margin: 5px 0;
+    color: black;
+}
+
+.story-meta {
+    margin-top: auto;           /* Mendorong ini ke bawah */
+    display: flex;
+    justify-content: space-between; /* Mendorong item ke ujung-ujung */
+    align-items: center;
+    flex-wrap: wrap;            /* BARU: Izinkan item turun ke baris baru jika tidak muat */
+    gap: 10px;                  /* BARU: Beri jarak 10px jika item turun baris */
+}
+
+.story-level-tag, .story-cta {
+    white-space: nowrap;        /* BARU: Mencegah teks di dalam elemen terpotong/turun baris */
+    /* Properti lain biarkan seperti semula */
+    border: 1px solid black;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.story-level-tag {
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+
+.story-cta {
+    border: 1px solid #777;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.home_btn{
+    text-decoration: none;
+    color: black;
+}
+
+.judul_bottom{
+    text-align: center;
+}
