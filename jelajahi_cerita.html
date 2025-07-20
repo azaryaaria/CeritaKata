@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CeritaKata</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+
+<body class="body_jelajah">
+
+    <div class="main-container">
+        <a href="index.html" class="home_btn">
+            <h5><i style="font-size:24px" class="fa">&#xf0a5;</i> Kembali ke Home</h5>
+        </a>
+
+        <h1 class="judul_jelajah poppins">Jelajahi Semua Cerita Kami</h1>
+
+        <div class="filter-container">
+            <span>Filter:</span>
+            <button class="btn-filter active" data-filter="semua">Semua</button>
+            <button class="btn-filter" data-filter="pemula">Pemula</button>
+            <button class="btn-filter" data-filter="menengah">Menengah</button>
+            <button class="btn-filter" data-filter="mahir">Mahir</button>
+            <input type="text" id="search-input" placeholder="Cari...">
+        </div>
+
+        <div class="story-list">
+            <div class="story-card" data-level="pemula">
+                <div class="story-illustration"><img src="market.jpg" alt=""></div>
+                <div class="story-details">
+                    <h2 class="story-title">Bab 1: At the Market</h2>
+                    <p class="story-theme">Tema: Belanja</p>
+                    <div class="story-meta">
+                        <span class="story-level-tag">Pemula</span>
+                        <a href="bab1_at_the_market_pemula.html" class="story-cta">Mulai Baca &gt;</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="story-card" data-level="pemula">
+                <div class="story-illustration"><img src="myfam.png" alt=""></div>
+                <div class="story-details">
+                    <h2 class="story-title">Bab 2: My Family</h2>
+                    <p class="story-theme">Tema: Keluarga</p>
+                    <div class="story-meta">
+                        <span class="story-level-tag">Pemula</span>
+                        <a href="bab2_my_family.html" class="story-cta">Mulai Baca &gt;</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="story-card" data-level="menengah">
+                <div class="story-illustration"><img src="at_school.png" alt=""></div>
+                <div class="story-details">
+                    <h2 class="story-title">Bab 3: At School</h2>
+                    <p class="story-theme">Tema: Belajar</p>
+                    <div class="story-meta">
+                        <span class="story-level-tag">Menengah</span>
+                        <a href="bab3_at_school.html" class="story-cta">Mulai Baca &gt;</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="story-card" data-level="mahir">
+                <div class="story-illustration"><img src="lack_of_inspiration.png" alt=""></div>
+                <div class="story-details">
+                    <h2 class="story-title">Bab 4: Lack of Inspiration</h2>
+                    <p class="story-theme">Tema: Bekerja</p>
+                    <div class="story-meta">
+                        <span class="story-level-tag">Mahir</span>
+                        <a href="bab4_lack_of_inspiration.html" class="story-cta">Mulai Baca &gt;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
